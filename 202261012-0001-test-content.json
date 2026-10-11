@@ -4,8 +4,8 @@
         {
             "theme":"rebates",
             "audience": "65plus",
-            "subject_line":"This is a subject line#json",
-            "preheader": "This is a preheader#json",
+            "subject_line":"This is a subject line {{first_name}} ${first_name}",
+            "preheader": "This is a preheader",
             "layout":[
                 {
                     "module_name":"header"
@@ -16,24 +16,27 @@
                 },
                 {
                     "module_name":"hero"
+                    
                 },
                 {
                     "module_name":"footer"
-    
+
                 } 
             ]
         },
         {
             "theme":"rebates",
             "audience": "family",
-            "subject_line":"This is a subject line#json",
-            "preheader": "This is a preheader#json",
+            "subject_line":"This is a subject line",
+            "preheader": "This is a preheader",
             "layout":[
                 {
                     "module_name":"header"
                 },
                 {
-                    "module_name":"hero"
+                    "module_name":"hero",
+                    "dynamic":false
+                    
                 },
                 {
                     "module_name":"footer"
@@ -43,21 +46,22 @@
         {
             "theme":"",
             "audience": "default",
-            "subject_line":"This is the default's version subject line#json",
-            "preheader": "This is the default's version preheader#json",
+            "subject_line":"This is the default's version subject line",
+            "preheader": "This is the default's version preheader",
             "layout":[
                 {
                     "module_name":"header"
                 },
                 {
-                    "module_name":"hero"
+                    "module_name":"hero",
+                    "dynamic":false
                 },
                 {
                     "module_name":"footer"
                 } 
             ]
         }
-    
+
     ],
     
     "modules":[
@@ -68,8 +72,8 @@
             
             "module_name":"hero",
             "version":"65plus",
-            "header": "This is the header for #65plus#json",
-            "body": "This is the body for #65plus#json.",
+            "header": "This is the header for #65plus.",
+            "body": "This is the body for #65plus.",
             "button_text":"button#hero_65plus",
             "button_link":"http://www.compareclub.com.au#hero_65plus"
         },
@@ -78,7 +82,7 @@
             "module_name":"hero",
             "version":"family",
             "header": "This is the header for #family.",
-            "body": "This is the body for #family from json file.",
+            "body": "This is the body for #family.",
             "button_text":"button#text",
             "button_link":"http://www.compareclub.com.au#family"
         },
@@ -86,8 +90,8 @@
             
             "module_name":"hero",
             "version":"established",
-            "header": "This is the header for #established#json",
-            "body": "This is the body for #established#json from json file.",
+            "header": "This is the header for #established.",
+            "body": "This is the body for #established.",
             "button_text":"button#established",
             "button_link":"http://www.compareclub.com.au#established"
         },
@@ -95,8 +99,8 @@
             
             "module_name":"hero",
             "version":"young",
-            "header": "header#young#json",
-            "body": "This is the body for #young#jsonfrom json file.",
+            "header": "header#young.",
+            "body": "This is the body for #young.",
             "button_text":"button#young",
             "button_link":"http://www.compareclub.com.au#hero_65plus"
         },
@@ -104,8 +108,8 @@
             
             "module_name":"hero",
             "version":"default",
-            "header": "header#default#json",
-            "body": "This is the body for #default#json.",
+            "header": "header#default",
+            "body": "This is the body for #default.",
             "button_text":"button#default",
             "button_link":"http://www.compareclub.com.au#default"
         },
@@ -114,3 +118,20 @@
         }
     ]
 }
+
+
+"_comment":{
+        "themes": "currently working with reference_price and energy_savings",
+        "audience":"65plus, family, established, young        dyanmic based on age        \"theme\"        state?        "
+        ,
+        
+        
+        "config":{
+            "theme":"reference_price",
+            "version": "65plus",
+            "layout": 
+        
+        },
+
+
+    },
