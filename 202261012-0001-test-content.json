@@ -1,116 +1,116 @@
 {
-"version":
-[
-    {
-        "theme":"rebates",
-        "audience": "65plus",
-        "subject_line":"This is a subject line#json",
-        "preheader": "This is a preheader#json",
-        "layout":[
-            {
-                "module_name":"header"
-            },
-            {
-                "module_name":"hero",
-                "dynamic":true
-            },
-            {
-                "module_name":"hero"
-            },
-            {
-                "module_name":"footer"
-
-            } 
-        ]
-    },
-    {
-        "theme":"rebates",
-        "audience": "family",
-        "subject_line":"This is a subject line#json",
-        "preheader": "This is a preheader#json",
-        "layout":[
-            {
-                "module_name":"header"
-            },
-            {
-                "module_name":"hero"
-            },
-            {
-                "module_name":"footer"
-            } 
-        ] 
-    },
-    {
-        "theme":"",
-        "audience": "default",
-        "subject_line":"This is the default's version subject line#json",
-        "preheader": "This is the default's version preheader#json",
-        "layout":[
-            {
-                "module_name":"header"
-            },
-            {
-                "module_name":"hero"
-            },
-            {
-                "module_name":"footer"
-            } 
-        ]
-    }
-
-],
-
-"modules":[
-    {
-        "module_name": "header"
-    },
-    {
-        
-        "module_name":"hero",
-        "version":"65plus",
-        "header": "This is the header for #65plus#json",
-        "body": "This is the body for #65plus#json.",
-        "button_text":"button#hero_65plus",
-        "button_link":"http://www.compareclub.com.au#hero_65plus"
-    },
-    {
-        
-        "module_name":"hero",
-        "version":"family",
-        "header": "This is the header for #family.",
-        "body": "This is the body for #family from json file.",
-        "button_text":"button#text",
-        "button_link":"http://www.compareclub.com.au#family"
-    },
-    {
-        
-        "module_name":"hero",
-        "version":"established",
-        "header": "This is the header for #established#json",
-        "body": "This is the body for #established#json from json file.",
-        "button_text":"button#established",
-        "button_link":"http://www.compareclub.com.au#established"
-    },
-    {
-        
-        "module_name":"hero",
-        "version":"young",
-        "header": "header#young#json",
-        "body": "This is the body for #young#jsonfrom json file.",
-        "button_text":"button#young",
-        "button_link":"http://www.compareclub.com.au#hero_65plus"
-    },
-    {
-        
-        "module_name":"hero",
-        "version":"default",
-        "header": "header#default#json",
-        "body": "This is the body for #default#json.",
-        "button_text":"button#default",
-        "button_link":"http://www.compareclub.com.au#default"
-    },
-    {
-        "module_name":"footer"
-    }
-]
+    "version":
+    [
+        {
+            "theme":"rebates",
+            "audience": "65plus",
+            "subject_line":"This is a subject line#json",
+            "preheader": "This is a preheader#json",
+            "layout":[
+                {
+                    "module_name":"header"
+                },
+                {
+                    "module_name":"hero",
+                    "dynamic":true
+                },
+                {
+                    "module_name":"hero"
+                },
+                {
+                    "module_name":"footer"
+    
+                } 
+            ]
+        },
+        {
+            "theme":"rebates",
+            "audience": "family",
+            "subject_line":"This is a subject line#json",
+            "preheader": "This is a preheader#json",
+            "layout":[
+                {
+                    "module_name":"header"
+                },
+                {
+                    "module_name":"hero"
+                },
+                {
+                    "module_name":"footer"
+                } 
+            ] 
+        },
+        {
+            "theme":"",
+            "audience": "default",
+            "subject_line":"This is the default's version subject line#json",
+            "preheader": "This is the default's version preheader#json",
+            "layout":[
+                {
+                    "module_name":"header"
+                },
+                {
+                    "module_name":"hero"
+                },
+                {
+                    "module_name":"footer"
+                } 
+            ]
+        }
+    
+    ],
+    
+    "modules":[
+        {
+            "module_name": "header"
+        },
+        {
+            
+            "module_name":"hero",
+            "version":"65plus",
+            "header": "This is the header for #65plus#json",
+            "body": "This is the body for #65plus#json.",
+            "button_text":"button#hero_65plus",
+            "button_link":"http://www.compareclub.com.au#hero_65plus"
+        },
+        {
+            
+            "module_name":"hero",
+            "version":"family",
+            "header": "This is the header for #family.",
+            "body": "This is the body for #family from json file.",
+            "button_text":"button#text",
+            "button_link":"http://www.compareclub.com.au#family"
+        },
+        {
+            
+            "module_name":"hero",
+            "version":"established",
+            "header": "This is the header for #established#json",
+            "body": "This is the body for #established#json from json file.",
+            "button_text":"button#established",
+            "button_link":"http://www.compareclub.com.au#established"
+        },
+        {
+            
+            "module_name":"hero",
+            "version":"young",
+            "header": "header#young#json",
+            "body": "This is the body for #young#jsonfrom json file.",
+            "button_text":"button#young",
+            "button_link":"http://www.compareclub.com.au#hero_65plus"
+        },
+        {
+            
+            "module_name":"hero",
+            "version":"default",
+            "header": "header#default#json",
+            "body": "This is the body for #default#json.",
+            "button_text":"button#default",
+            "button_link":"http://www.compareclub.com.au#default"
+        },
+        {
+            "module_name":"footer"
+        }
+    ]
 }
